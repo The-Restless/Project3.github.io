@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+
+	<header>
+		<link rel="stylesheet" href="style.css">
+	  <script src="script.js"></script>
+
+	</header>
+
+
+ 	<body class="body">
+
+        <!--Title banner-->
+        <div class="banner"> 
+            <p id="maintitle">JEDI BOOTCAMP</p>
+            <hr>
+            <p id="secondarytitle">Destroy the Deathstar!</p>
+        </div> 
+
+
+  
+          <!--MainBox-->
+          <div class="mainbox">
+
+
+
+              <div class="topbar_container">
+                  <div class="l_topbox">
+                      <b>
+                        
+                        <table cellspacing="0" cellpadding="0">
+                            
+                            <tr>
+                              <th class="ftf">
+                                <p>Score: </p>
+                              </th>
+
+                              <th class="ftv">
+                                <div id="score">10</div>
+                              </th>
+                            </tr>
+                           </table>
+
+                            <table style="margin-top: -2vw;" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <th class="ftf">                       
+                                 <p>Highscore: </p>
+                              </th>
+
+                              <th class="ftv" style="width: 20%; ">
+                                 <div id="highscore">0</div>
+                              </th>
+                            </tr>
+                          </table>
+
+                       
+                      </b>
+                  </div>
+
+                  <div class="r_topbox">
+                      <button id="reset" title="Eecute Order 66"><b>Reset </b></button>
+                  </div>
+              </div>
+
+
+              <!--MiddleBox-->
+              <div class="middlebox">
+
+                  <div class="mid_container" id="mid1">
+                  
+                       <div class="fight_box">
+
+                           <div class="xwing">
+                              <div id="beam"></div>
+                           </div>
+
+                           <div class="dstar">
+                             
+                           </div>
+                       </div> 
+
+                       <br>
+
+                       <div class="guess_box">
+
+                          <table class="tb">
+                            <tr>
+                              <th>
+                                  <p class="entertext">Enter your guess:</p> 
+                              </th>
+                            </tr>
+                            
+                            <tr>
+                              <th>
+                                <input type="number" id="guess">
+                              </th>
+                            </tr>
+
+                            <tr>
+                              <th>
+                                <button id="gss_num">Check</button>
+                              </th>
+                            </tr>
+
+
+
+                            <tr>
+                              <th>
+                                
+                            <div id="result"></div>
+                              </th>
+                            </tr>
+                          </table>
+                                                                    
+                       </div>
+                  </div>
+
+                  <div class="mid_container2" id ="mid2">
+                  
+                       <div class="fight_box">
+
+                           <div id="tier_ranking">
+                             
+
+                           </div>
+                             
+                           
+                       </div> 
+
+                       <br>
+
+                       <div class="guess_box2">
+
+                          <table class="tb2" cellspacing="0" cellpadding="0" style="width: auto;">
+                            <tr>
+                              <th>
+                                  <b><p id="entertext1">FILLER TEXT TEXT FUNIF IEFI ED KADBF </p><b> 
+                              </th>
+                            </tr>
+
+                            <tr>
+                              <th>
+                                  <p id="entertext2">TO SEE WHATS UP</p> 
+                              </th>
+                            </tr>
+                            
+
+                            <tr>
+                              <th>
+                                <button id="continue">Play Again</button>
+                              </th>
+                            </tr>
+                          </table>
+                                                                    
+                       </div>
+                  </div>
+
+
+
+
+  
+      
+      
+              <!--Bottom-->
+              <div class="history_container">
+                  <div class="guesses">
+
+                     <table class="">
+                      <tr>
+                        <th>
+                            <p class="gt"> Guess History: </p>
+                        </th>
+                      </tr>
+                      
+                      <tr>
+                        <th>      
+                           <ul id="history"></ul>
+                        </th>
+                      </tr>
+                    </table>
+                                     
+                  </div>
+  
+            </div>
+
+
+
+            <div class="instructions">
+                <a href="#modal"><b class="btext" title="Add items to cart">Instructions</b></a>
+            </div>
+
+
+            <div id="modal">
+             <div class="modal__window">
+              <a href="#"  class="modal__close"><img src="images/xicon.png" class="xbutton"></a>
+
+              <h2><b>Pick a number between 1 - 100, if you're 30 numbers too high or too low, you'll be told "WAY TOO HIGH or LOW". Aim accordingly. You have 10 tries and you can't reuse the same number. Hit reset to start over, your highscore wont be affected. Good luck.</b></h2>
+        
+       
+
+               <br><br>
+
+              <div class="shopbutton">
+                <a href="#"  class="modal_close2">Okay.</a>
+              </div>
+   
+              </div>
+            </div>
+                
+
+
+
+  </body>
+
+
+</html>
